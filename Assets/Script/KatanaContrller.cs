@@ -12,7 +12,6 @@ public class KatanaContrller : MonoBehaviour
     {
         if (collision.gameObject.name == "target")
         {
-            Debug.Log("“I‚É“–‚½‚Á‚½");
             AudioSource.PlayClipAtPoint(hitTargetSe, transform.position);
         }
         GetComponent<Rigidbody>().isKinematic = true;
