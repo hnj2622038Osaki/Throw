@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/RPG_FPS_game_assets_industrial.meta
 guid: 14867648bc917104ea46cb20dbc02f11
+========
+guid: dbb6f599cc0df914796654dc9a33243d
+>>>>>>>> parent of d7e992b (no message):Assets/ZombieMale_AAB/Shaders.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

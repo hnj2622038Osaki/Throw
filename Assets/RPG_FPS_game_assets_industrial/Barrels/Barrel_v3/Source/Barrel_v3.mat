@@ -1,6 +1,7 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 <<<<<<<< HEAD:Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Source/Barrel_v3.mat
+<<<<<<<< HEAD:Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Source/Barrel_v3.mat
 --- !u!114 &-2723057507004864511
 MonoBehaviour:
   m_ObjectHideFlags: 11
@@ -16,6 +17,8 @@ MonoBehaviour:
   version: 10
 ========
 >>>>>>>> parent of d7e992b (no message):Assets/ZombieMale_AAB/Model/Materials/ZombieMale_Head_V1_MAT.mat
+========
+>>>>>>>> parent of d7e992b (no message):Assets/ZombieMale_AAB/Model/Materials/ZombieMale_Head_V1_MAT.mat
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -24,12 +27,20 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<<< HEAD:Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Source/Barrel_v3.mat
+<<<<<<<< HEAD:Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Source/Barrel_v3.mat
   m_Name: Barrel_v3
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _EMISSION
+========
+  m_Name: ZombieMale_Head_V1_MAT
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ValidKeywords:
+  - _METALLICGLOSSMAP
+  - _NORMALMAP
+>>>>>>>> parent of d7e992b (no message):Assets/ZombieMale_AAB/Model/Materials/ZombieMale_Head_V1_MAT.mat
 ========
   m_Name: ZombieMale_Head_V1_MAT
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
@@ -48,10 +59,13 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
 <<<<<<<< HEAD:Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Source/Barrel_v3.mat
+<<<<<<<< HEAD:Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Source/Barrel_v3.mat
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: ab642a6f4431c294dad548240c4df51f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+========
+>>>>>>>> parent of d7e992b (no message):Assets/ZombieMale_AAB/Model/Materials/ZombieMale_Head_V1_MAT.mat
 ========
 >>>>>>>> parent of d7e992b (no message):Assets/ZombieMale_AAB/Model/Materials/ZombieMale_Head_V1_MAT.mat
     - _BumpMap:

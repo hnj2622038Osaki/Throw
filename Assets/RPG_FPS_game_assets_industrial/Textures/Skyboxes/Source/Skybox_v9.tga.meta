@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/RPG_FPS_game_assets_industrial/Textures/Skyboxes/Source/Skybox_v9.tga.meta
 guid: 16480a11af794d84e952d0f15c3302c3
+========
+guid: a04d867f5364270499a02989a808bf72
+>>>>>>>> parent of d7e992b (no message):Assets/ZombieMale_AAB/Shaders/Panorama 2.exr.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -64,7 +68,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+<<<<<<<< HEAD:Assets/RPG_FPS_game_assets_industrial/Textures/Skyboxes/Source/Skybox_v9.tga.meta
   swizzle: 50462976
+========
+>>>>>>>> parent of d7e992b (no message):Assets/ZombieMale_AAB/Shaders/Panorama 2.exr.meta
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -94,6 +101,21 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
+<<<<<<<< HEAD:Assets/RPG_FPS_game_assets_industrial/Textures/Skyboxes/Source/Skybox_v9.tga.meta
+========
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+>>>>>>>> parent of d7e992b (no message):Assets/ZombieMale_AAB/Shaders/Panorama 2.exr.meta
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -124,8 +146,16 @@ TextureImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
+<<<<<<<< HEAD:Assets/RPG_FPS_game_assets_industrial/Textures/Skyboxes/Source/Skybox_v9.tga.meta
   productId: 86679
   packageName: RPG/FPS Game Assets for PC/Mobile (Industrial Set v2.0)
   packageVersion: 2.0
   assetPath: Assets/RPG_FPS_game_assets_industrial/Textures/Skyboxes/Source/Skybox_v9.tga
   uploadId: 642626
+========
+  productId: 336744
+  packageName: FREE Zombie Male AAB
+  packageVersion: 1.0
+  assetPath: Assets/ZombieMale_AAB/Shaders/Panorama 2.exr
+  uploadId: 796708
+>>>>>>>> parent of d7e992b (no message):Assets/ZombieMale_AAB/Shaders/Panorama 2.exr.meta

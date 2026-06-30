@@ -11,7 +11,11 @@ GameObject:
   - component: {fileID: 484934}
   - component: {fileID: 13634870}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Layer: 7
+=======
+  m_Layer: 0
+>>>>>>> parent of d7e992b (no message)
 =======
   m_Layer: 0
 >>>>>>> parent of d7e992b (no message)
@@ -70,7 +74,11 @@ GameObject:
   - component: {fileID: 454752}
   - component: {fileID: 6530844}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Layer: 7
+=======
+  m_Layer: 0
+>>>>>>> parent of d7e992b (no message)
 =======
   m_Layer: 0
 >>>>>>> parent of d7e992b (no message)
@@ -127,7 +135,11 @@ GameObject:
   - component: {fileID: 473706}
   - component: {fileID: 13663084}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Layer: 7
+=======
+  m_Layer: 0
+>>>>>>> parent of d7e992b (no message)
 =======
   m_Layer: 0
 >>>>>>> parent of d7e992b (no message)
@@ -185,7 +197,11 @@ GameObject:
   m_Component:
   - component: {fileID: 493772}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Layer: 7
+=======
+  m_Layer: 0
+>>>>>>> parent of d7e992b (no message)
 =======
   m_Layer: 0
 >>>>>>> parent of d7e992b (no message)
@@ -227,11 +243,17 @@ GameObject:
   - component: {fileID: 5481958}
   - component: {fileID: 2381630}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: -8229895252305715522}
   - component: {fileID: 1319533151179944960}
   m_Layer: 7
   m_Name: Shinai
   m_TagString: Katana
+=======
+  m_Layer: 0
+  m_Name: Shinai
+  m_TagString: Untagged
+>>>>>>> parent of d7e992b (no message)
 =======
   m_Layer: 0
   m_Name: Shinai
@@ -289,7 +311,11 @@ Rigidbody:
   m_ImplicitTensor: 1
   m_UseGravity: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IsKinematic: 0
+=======
+  m_IsKinematic: 1
+>>>>>>> parent of d7e992b (no message)
 =======
   m_IsKinematic: 1
 >>>>>>> parent of d7e992b (no message)
@@ -346,6 +372,7 @@ MeshRenderer:
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!65 &-8229895252305715522
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -383,6 +410,8 @@ MonoBehaviour:
   lifeTime: 5
 =======
 >>>>>>> parent of d7e992b (no message)
+=======
+>>>>>>> parent of d7e992b (no message)
 --- !u!1 &183380
 GameObject:
   m_ObjectHideFlags: 0
@@ -394,7 +423,11 @@ GameObject:
   - component: {fileID: 435224}
   - component: {fileID: 13633044}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Layer: 7
+=======
+  m_Layer: 0
+>>>>>>> parent of d7e992b (no message)
 =======
   m_Layer: 0
 >>>>>>> parent of d7e992b (no message)
