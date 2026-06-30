@@ -10,7 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 484934}
   - component: {fileID: 13634870}
+<<<<<<< HEAD
   m_Layer: 7
+=======
+  m_Layer: 0
+>>>>>>> parent of d7e992b (no message)
   m_Name: collider4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65,7 +69,11 @@ GameObject:
   m_Component:
   - component: {fileID: 454752}
   - component: {fileID: 6530844}
+<<<<<<< HEAD
   m_Layer: 7
+=======
+  m_Layer: 0
+>>>>>>> parent of d7e992b (no message)
   m_Name: collider2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +126,11 @@ GameObject:
   m_Component:
   - component: {fileID: 473706}
   - component: {fileID: 13663084}
+<<<<<<< HEAD
   m_Layer: 7
+=======
+  m_Layer: 0
+>>>>>>> parent of d7e992b (no message)
   m_Name: collider3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,7 +184,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 493772}
+<<<<<<< HEAD
   m_Layer: 7
+=======
+  m_Layer: 0
+>>>>>>> parent of d7e992b (no message)
   m_Name: _Colliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -210,11 +226,17 @@ GameObject:
   - component: {fileID: 3336708}
   - component: {fileID: 5481958}
   - component: {fileID: 2381630}
+<<<<<<< HEAD
   - component: {fileID: -8229895252305715522}
   - component: {fileID: 1319533151179944960}
   m_Layer: 7
   m_Name: Shinai
   m_TagString: Katana
+=======
+  m_Layer: 0
+  m_Name: Shinai
+  m_TagString: Untagged
+>>>>>>> parent of d7e992b (no message)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -266,7 +288,11 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
+<<<<<<< HEAD
   m_IsKinematic: 0
+=======
+  m_IsKinematic: 1
+>>>>>>> parent of d7e992b (no message)
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -319,6 +345,7 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+<<<<<<< HEAD
 --- !u!65 &-8229895252305715522
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -354,6 +381,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Katana
   rotateSpeed: 720
   lifeTime: 5
+=======
+>>>>>>> parent of d7e992b (no message)
 --- !u!1 &183380
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,7 +393,11 @@ GameObject:
   m_Component:
   - component: {fileID: 435224}
   - component: {fileID: 13633044}
+<<<<<<< HEAD
   m_Layer: 7
+=======
+  m_Layer: 0
+>>>>>>> parent of d7e992b (no message)
   m_Name: collider1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
