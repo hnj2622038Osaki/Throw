@@ -310,6 +310,15 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
+<<<<<<< HEAD
+=======
+    m_Controller: {fileID: 9100000}
+  - m_Name: Emote
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+>>>>>>> parent of f7b8062 (no message)
     m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5

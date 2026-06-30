@@ -5,9 +5,13 @@ using TMPro;
 
 public class PlayerMove : MonoBehaviour
 {
+<<<<<<< HEAD
     [SerializeField] float moveSpeed = 1;
 
     public string OverScene = "OverScene";
+=======
+    [SerializeField] float moveSpeed = 10;
+>>>>>>> parent of f7b8062 (no message)
     Inputs inputs;
     CharacterController controller;
     Vector3 velocity;
@@ -19,6 +23,7 @@ public class PlayerMove : MonoBehaviour
     }
     void Update()
     {
+<<<<<<< HEAD
         // カメラの平面ベクトルを作成
         Vector3 cameraForward = Vector3.Scale(
         Camera.main.transform.forward,
@@ -45,6 +50,8 @@ public class PlayerMove : MonoBehaviour
         }
         // 移動速度
         planeVel *= moveSpeed;
+=======
+>>>>>>> parent of f7b8062 (no message)
         // 移動量
         velocity.x = inputs.move.x * moveSpeed;
         velocity.z = inputs.move.y * moveSpeed;
@@ -59,6 +66,7 @@ public class PlayerMove : MonoBehaviour
         }
         // 移動
         controller.Move(velocity * Time.deltaTime);
+<<<<<<< HEAD
     }
     private void OnCollisionEnter(Collision collision)
     {
@@ -66,5 +74,7 @@ public class PlayerMove : MonoBehaviour
         {
             SceneManager.LoadScene(OverScene);
         }
+=======
+>>>>>>> parent of f7b8062 (no message)
     }
 }
