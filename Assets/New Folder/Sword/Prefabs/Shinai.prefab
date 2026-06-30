@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 484934}
   - component: {fileID: 13634870}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: collider4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65,7 +65,7 @@ GameObject:
   m_Component:
   - component: {fileID: 454752}
   - component: {fileID: 6530844}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: collider2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +118,7 @@ GameObject:
   m_Component:
   - component: {fileID: 473706}
   - component: {fileID: 13663084}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: collider3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,7 +172,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 493772}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: _Colliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -210,9 +210,11 @@ GameObject:
   - component: {fileID: 3336708}
   - component: {fileID: 5481958}
   - component: {fileID: 2381630}
-  m_Layer: 0
+  - component: {fileID: -8229895252305715522}
+  - component: {fileID: 1319533151179944960}
+  m_Layer: 7
   m_Name: Shinai
-  m_TagString: Untagged
+  m_TagString: Katana
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -264,7 +266,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -317,6 +319,41 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &-8229895252305715522
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177562}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.05674374, y: 0.057009295, z: 1.0130793}
+  m_Center: {x: 0.0015473729, y: -0.0016683328, z: 0.24090777}
+--- !u!114 &1319533151179944960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7c46b62962ce1841b4b7b99786886b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Katana
+  rotateSpeed: 720
+  lifeTime: 5
 --- !u!1 &183380
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,7 +364,7 @@ GameObject:
   m_Component:
   - component: {fileID: 435224}
   - component: {fileID: 13633044}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: collider1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

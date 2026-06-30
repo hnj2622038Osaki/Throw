@@ -6,6 +6,11 @@ public class KatanaThrow : MonoBehaviour
 {
     [SerializeField] GameObject katanaPrefab;
     [SerializeField] AudioClip BGM;
+    [SerializeField] Transform throwPoint;      // “Š‚°‚éˆÊ’u
+    [SerializeField] float throwForce = 10f;    // “Š‚°‚é‹­‚³
+    [SerializeField] float idleTime = 10.0f;
+
+    private float time = 0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,12 +20,24 @@ public class KatanaThrow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Mouse.current.leftButton.wasPressedThisFrame)
+        GetComponent<Animator>().SetBool("Throw", false);
+        time += Time.deltaTime;
+        if (time > idleTime)
         {
-            GameObject katana = Instantiate(katanaPrefab);
-            Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.value);
-            katana.GetComponent<KatanaContrller>().Shoot(ray.direction * 2000);
-
+            time = 0f;
+            ThrowKatana();
+            GetComponent<Animator>().SetBool("Throw", true);
         }
     }
+
+    void ThrowKatana()
+    {
+        GameObject katana = Instantiate(katanaPrefab, throwPoint.position, Quaternion.identity);
+
+        Rigidbody rb = katana.GetComponent<Rigidbody>();
+
+        // ‘O•ûŒü‚É”­ŽË
+        rb.linearVelocity = transform.forward * throwForce;
+    }
+
 }

@@ -1,10 +1,13 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class PlayerMove : MonoBehaviour
 {
-    [SerializeField] float moveSpeed = 5;
+    [SerializeField] float moveSpeed = 1;
+
+    public string OverScene = "OverScene";
     Inputs inputs;
     CharacterController controller;
     Vector3 velocity;
@@ -33,8 +36,13 @@ public class PlayerMove : MonoBehaviour
             transform.rotation,
             Quaternion.LookRotation(planeVel.normalized),
             0.2f);
-        }
 
+            GetComponent<Animator>().SetBool("Walk", true);
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("Walk", false);
+        }
         // ˆÚ“®‘¬“x
         planeVel *= moveSpeed;
         // ˆÚ“®—Ê
@@ -50,7 +58,13 @@ public class PlayerMove : MonoBehaviour
             velocity.y += Physics.gravity.y * Time.deltaTime;
         }
         // ˆÚ“®
-        controller.Move(velocity * Time.deltaTime); GetComponent<Animator>().SetBool("Walk", true);
-
+        controller.Move(velocity * Time.deltaTime);
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Katana"))
+        {
+            SceneManager.LoadScene(OverScene);
+        }
     }
 }
